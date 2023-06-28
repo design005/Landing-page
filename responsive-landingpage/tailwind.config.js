@@ -6,17 +6,20 @@ module.exports = {
     extend: {
       colors: {
         'primary-mainbody-bluecolor': "hsl(218, 28%, 13%)",
-        'primary-footer-bluecolor':  "hsl(218, 28%, 13%)",
+        'primary-hero-bluecolor':  "hsl(222, 26%, 15%)",
         'primary-testimonial-bluecolor':  "hsl(219, 30%, 18%)",
-        'primary-introandsign-bluecolor':  "hsl(219, 30%, 18%)",
-         "secondary-cyangradient": "hsl(176, 68%, 64%)",
+        "secondary-cyangradient": "hsl(176, 68%, 64%)",
          "secondary-bluegradient": "hsl(198, 60%, 50%)",
         "error": "hsl(0, 100%, 63%)",
         "white": "hsl(0, 0%, 100%)",
       },
+      backgroundImage: {
+        'desktop-background': "url('/src/assets/BackgroundCurveDesktop.svg')",
+        'mobile-background': "url('/src/assets/BackgroundCurveMobile.svg')",
+      },
       fontFamily: {
-        raleway: ["Raleway", "sans-serif"],
-        opensans: ["Open Sans", "sans-serif"],
+        "raleway": ["Raleway", "sans-serif"],
+        "opensans": ["Open Sans", "sans-serif"],
       },
     },
     screens: {

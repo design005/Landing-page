@@ -1,5 +1,7 @@
 import images from '../assets/images'
 
+import {faFacebookF, faInstagram,faTwitter} from '@fortawesome/free-brands-svg-icons'
+
 export const navLinks = [
   
     
@@ -41,7 +43,7 @@ export const features = [
   },
   {
     id: "feature-4",
-    // icon: images.AnyfileIcon,
+    icon: images.AnyfileIcon,
     title: "Store any type of file",
     content:
       "Whether you're sharing holidays photos or work  documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
@@ -52,48 +54,49 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Fylo stores all your most important files in one secure location.Access them wherever you need, share and collaborate with friends family, and co-workers.",
+      "Fylo has improved our team productivity by an order of magnitude. Since making the  switch our team has become a well-oiled collaboration machine.",
     name: "Satish Patel",
     title: "Founder & CEO, Huddle",
-    // img: images.profile1,
+    img: images.Profile1,
   },
   {
     id: "feedback-2",
     content:
-    "Fylo stores all your most important files in one secure location.Access them wherever you need, share and collaborate with friends family, and co-workers.",
+      "Fylo has improved our team productivity by an order of magnitude. Since making the  switch our team has become a well-oiled collaboration machine.",
     name: "Bruce McKenzie",
     title: "Founder & CEO, Huddle",
-    // img: images.profile2,
+    img: images.Profile2,
   },
   {
     id: "feedback-3",
     content:
-      "Fylo stores all your most important files in one secure location.Access them wherever you need, share and collaborate with friends family, and co-workers.",
+    "Fylo has improved our team productivity by an order of magnitude. Since making the  switch our team has become a well-oiled collaboration machine.",
     name: "Iva Boyd",
     title: "Founder & CEO, Huddle",
-    // img: images.profile3,
+    img: images.Profile3,
   },
 ];
+
+export const contactInfo = [
+  {
+    id: "Phone",
+    icon: images.iconPhone,
+    link: "#",
+    text:"+1-543-123-4567",
+  },
+  {
+    id: "Email",
+    icon: images.iconEmail,
+    link: "#",
+    text:" example@fylo.com",
+  },
+ ]
+
 
 
 
 export const footerLinks = [
-  {
-      contactInfo : [
-      {
-        id: "Phone",
-        // icon: images.iconPhone,
-        link: "#",
-      },
-      {
-        id: "Email",
-        // icon: images.iconEmail,
-        link: "#",
-      },
-          ]
-    
-  },
-  {
+    {
         links: [
       {
         name: "About Us",
@@ -132,18 +135,18 @@ export const footerLinks = [
   ];
 
 
-export const socialMedia = [
-  {
-    id: "facebook",
-    // img: images.BgQuote,
-  },
-  {
-    id: "Twitter",
-    // img: images.BgQuote,
-  },
-  {
-    id: "Instagram",
-    // img: images.BgQuote,
-  },
+  export const socialMedia = [
+    {
+      id: "facebook",
+     img: faFacebookF,
+    },
+    {
+      id: "twitter",
+   img:faTwitter,
+    },
+    {
+      id: "intsgram",
+      img: faInstagram,
+    },
+  ];
   
-];

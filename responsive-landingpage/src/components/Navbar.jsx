@@ -5,7 +5,7 @@ import {navLinks} from "../constants";
 
  const Navbar = () => {
   return (
-  <nav className='w-full flex justify-between text-white navbar'>
+  <nav className='w-full flex justify-between text-white navbar px-4 py-4 md:px-16 md:py-8'>
 <img src={logo} alt="logo" className="w-[90px] h-[30px]" />
 <ul className='list-none justify-end items-center flex flex-1'>
 
