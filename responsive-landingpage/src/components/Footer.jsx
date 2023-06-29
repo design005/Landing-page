@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => 
    (
-<section className='grid grid-rows-1 grid-cols-1 sm:grid-cols-[minmax(300px,_1fr)_1fr_1fr_1fr_1fr] gap-12 bg-[#0C1524] pt-44 px-12 sm:px-32'>
+<section className='grid grid-rows-1  sm:grid-cols-[minmax(300px,_1fr)_minmax(200px,_1fr)_1fr_1fr_1fr] gap-8 bg-[#0C1524] pt-44 px-12 lg:px-24 justify-center items-center'>
   <div>
     <img src={images.logo} alt="logo" className="w-[90px] h-[30px]" />
 
@@ -49,9 +49,9 @@ const Footer = () =>
 
 
 
-<div className='text-center mb-12'>
+<div className='text-center mb-8'>
     {socialMedia.map((item)=>(
-       <span key={item.id} className='text-white text-[16px]  mr-2 px-2 py-2 border rounded-full hover:text-secondary-cyangradient hover:border-secondary-cyangradient'> 
+       <span key={item.id} className='text-white text-[15px] inline-block mr-2 px-2 py-2 mb-2 border rounded-full hover:text-secondary-cyangradient hover:border-secondary-cyangradient'> 
        <FontAwesomeIcon icon={item.img} />
       </span>
   
